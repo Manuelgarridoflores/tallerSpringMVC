@@ -1,4 +1,4 @@
-package org.springframework.samples.petclinic.owner;
+package org.springframework.samples.petclinic.model;
 
 
 import java.util.Date;
@@ -14,8 +14,6 @@ import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.Digits;
 
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.samples.petclinic.model.BaseEntity;
-import org.springframework.samples.petclinic.visit.Visit;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 

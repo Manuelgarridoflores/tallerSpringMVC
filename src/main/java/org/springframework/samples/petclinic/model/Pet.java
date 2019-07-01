@@ -13,13 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.springframework.samples.petclinic.owner;
+package org.springframework.samples.petclinic.model;
 
 import org.springframework.beans.support.MutableSortDefinition;
 import org.springframework.beans.support.PropertyComparator;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.samples.petclinic.model.NamedEntity;
-import org.springframework.samples.petclinic.visit.Visit;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -87,7 +85,7 @@ public class Pet extends NamedEntity {
         return this.owner;
     }
 
-    protected void setOwner(Owner owner) {
+    public void setOwner(Owner owner) {
         this.owner = owner;
     }
 
