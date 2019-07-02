@@ -69,6 +69,4 @@ public class Bill extends BaseEntity {
 	public void setVisit(Visit visit) {
 		this.visit = visit;
 	}
-	
-	
 }
